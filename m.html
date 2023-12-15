@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Product</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="wb.css"> 
+</head>
+<body>
+    <header>
+        <!-- Main heading -->
+        <h1>THERE IS A NEW PRODUCT IN THE MARKET</h1> 
+    </header>
+    <main>
+        <div>
+            <img src="https://blob.sololearn.com/courses/np.png" alt="Product Image"> <!-- Product image -->
+            <h2>Adwoa's Clothing simplifies your shopping experience and boosts your fashion sense...</h2> <!-- Product description -->
+        </div>
+        
+        <div class="container">
+            <div>
+                <img src="#" alt="Shirts"> <!-- Category: Shirts -->
+                <span><h3>Shirts</h3></span>
+            </div>
+            <!-- Other category images and labels -->
+             <div>
+                <img src="#" alt="Jackets">
+                <span><h3>Jackets</h3></span>
+            </div>
+            <div>
+                <img src="#" alt="Suits">
+                <span><h3>Suits</h3></span>
+            </div>
+            <div>
+                <img src="#" alt="Dresses">
+                <span><h3>Dresses</h3></span>
+            </div>
+            <div>
+                <img src="#" alt="Accessories">
+                <span><h3>Accessories</h3></span>
+            </div>
+        </div>
+
+        <form class="form">
+            <select name="category">
+                <option disabled selected hidden>Category</option> 
+                <!-- Dropdown for selecting category -->
+                <option>Shirts</option>
+                <!-- Other category options -->
+                <option>Pants</option>
+                <option>Dresses</option>
+                <option>Skirts</option>
+                <option>Jackets</option>
+                <option>Accessories</option>
+            </select>
+            <select name="size">
+                <option disabled selected hidden>Size</option>
+                <!-- Dropdown for selecting size -->
+                <option>XS</option>
+                <!-- Other size options -->
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>Xl</option>
+            </select>
+            <select name="color">
+                <option disabled selected hidden>Color</option> 
+                <!-- Dropdown for selecting color -->
+                <option>Red</option>
+                <!-- Other color options -->
+                <option>White</option>
+                <option>Black</option>
+                <option>Blue</option>
+                <option>Pink</option>
+                <option>Brown</option>
+                <option>Purple</option>
+            </select>     
+        </form>
+
+        <div class="details">
+            <div>
+                <label for="name">Name</label> <!-- Input field for name -->
+                <input type="text" id="name">
+            </div>
+            <!-- Other input fields for email, contact, and message -->
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email">
+            </div>
+
+            <div>
+                <label for="contact">Contact</label>
+                <input type="text" id="contact">
+            </div>
+
+            <div>
+                <label for="message">Send us a message</label>
+                <textarea name="message" id="message" cols="" rows=""></textarea>
+            </div>
+            <div class="button">
+                <button onclick="alert('Thank you for your message. Our service personnel would attend to you shortly!')">Submit</button> <!-- Submit button with alert message -->
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Copyright &copy; 2023 Your Website Name</p> 
+            <!-- Footer content -->
+        </div>
+    </footer>
+
+</body>
+
+</html>
